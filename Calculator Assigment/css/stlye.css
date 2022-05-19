@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+
+div.container{
+    padding: 20px;
+    margin: 50px auto;
+    width: 500px;
+    height: 840px;
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    color: white;
+    border-radius: 50px;
+    
+}
+
+.ekran{
+    grid-column: span 30;
+    width: 460px;
+    height: 250px;
+}
+
+.buttons{
+    display: grid;
+    height: 540px;
+    width: 440px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 10px;
+    margin: auto;
+}
+
+.item{
+    display: flex;
+    grid-column: span 3;
+    grid-row: span 2;
+    background-color: #333;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item17{
+    align-items: center;
+    justify-content: left;
+    grid-column: span 6;
+    border-radius: 55px;
+    padding-left: 40px;
+}
+
+.item1, .item2, .item3{
+    background-color: #a5a5a5;
+    color: black;
+}
+
+.item4, .item8, .item12, .item16{
+    background-color: #f1a33c;
+}
+
+.item:hover{
+    /* background-color:  rgba(51, 51, 51, 0.5); */
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+
+
+
+
