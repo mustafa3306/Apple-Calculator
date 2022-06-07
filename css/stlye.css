@@ -36,15 +36,18 @@ div.container {
 }
 
 .upside {
+  margin: 1rem;
   height: 50%;
   border-radius: 0.75rem 0.75rem 0 0;
   vertical-align: middle;
+  font-size: 1.5rem;
 }
 
 .downside {
   height: 50%;
   border-radius: 0 0 0.75rem 0.75rem;
-  font-size: 3rem;
+  font-size: 4rem;
+  margin-right: 1rem;
 }
 
 .buttons {
