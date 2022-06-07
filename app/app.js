@@ -3,7 +3,6 @@ let altkisim = document.querySelector(".downside");
 let ustkisim = document.querySelector(".upside");
 let silme = document.querySelector(".silme");
 
-// tek tek butonlara işlem atama
 hesapyeri.addEventListener("click", (e) => {
     if(e.target.classList.contains("num")){
         altkisim.innerHTML += e.target.innerHTML; 
