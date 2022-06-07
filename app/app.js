@@ -29,10 +29,10 @@ hesapyeri.addEventListener("click", (e) => {
 
 function equal() {
     if (ustkisim.innerHTML.slice(-1) == "÷"){
-        altkisim.innerHTML = ustkisim.innerHTML.slice(0, -1) / altkisim.innerHTML;
+        altkisim.innerHTML = (ustkisim.innerHTML.slice(0, -1) / altkisim.innerHTML).toFixed(4);
     }
     else if (ustkisim.innerHTML.slice(-1) == "x"){
-        altkisim.innerHTML = ustkisim.innerHTML.slice(0, -1) * altkisim.innerHTML;
+        altkisim.innerHTML = (ustkisim.innerHTML.slice(0, -1) * altkisim.innerHTML).toFixed(4);
     }
     else if (ustkisim.innerHTML.slice(-1) == "-"){
         altkisim.innerHTML = ustkisim.innerHTML.slice(0, -1) - altkisim.innerHTML;
