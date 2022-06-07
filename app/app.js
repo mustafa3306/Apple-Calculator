@@ -8,7 +8,7 @@ hesapyeri.addEventListener("click", (e) => {
     if(e.target.classList.contains("num")){
         altkisim.innerText += e.target.innerText; 
     }
-    else if ( e.target.classList.contains("op")){
+    else if (e.target.classList.contains("op")){
         ustkisim.innerText = altkisim.innerText + " " + e.target.innerText;
         altkisim.innerText = "";
     }
