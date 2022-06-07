@@ -25,7 +25,7 @@ div.container {
   grid-column: span 30;
   width: 28.75rem;
   height: 18rem;
-  background-color: #414040;
+  /* background-color: #414040; */
   border-radius: 0.75rem;
   margin-top: 1.8rem;
   color: antiquewhite;
@@ -40,13 +40,14 @@ div.container {
   height: 50%;
   border-radius: 0.75rem 0.75rem 0 0;
   vertical-align: middle;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .downside {
   height: 50%;
   border-radius: 0 0 0.75rem 0.75rem;
-  font-size: 4rem;
+  font-size: 5rem;
   margin-right: 1rem;
 }
 
@@ -90,7 +91,8 @@ div.container {
 .item4,
 .item8,
 .item12,
-.item16 {
+.item16,
+.item19 {
   background-color: #f1a33c;
 }
 
