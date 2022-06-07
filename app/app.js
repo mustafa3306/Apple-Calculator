@@ -29,7 +29,7 @@ hesapyeri.addEventListener("click", (e) => {
 
 function equal() {
     if (ustkisim.innerHTML.slice(-1) == "÷"){
-        altkisim.innerHTML = (ustkisim.innerHTML.slice(0, -1) / altkisim.innerHTML).toFixed(4);
+        altkisim.innerHTML = (ustkisim.innerHTML.slice(0, -1) / altkisim.innerHTML).toFixed(1);
     }
     else if (ustkisim.innerHTML.slice(-1) == "x"){
         altkisim.innerHTML = ustkisim.innerHTML.slice(0, -1) * altkisim.innerHTML;
